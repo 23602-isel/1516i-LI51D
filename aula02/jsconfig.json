@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "ES6"
+    },
+    "files": [
+        "app01-hello.js",
+        "app02-scopes.js",
+        "app03-untyped-vars.js"
+    ]
+}
