@@ -24,3 +24,9 @@ console.log(f1.name)
 console.log(refF2.name)
 console.log(refF3.name)
 console.log(refF4.name)
+
+console.log("------------------------------------------------")
+
+setTimeout(() => console.log("Ola1"), 2000) // passagem de uma função por parametro
+
+setTimeout(function () {console.log("Ola2")}, 2500)
