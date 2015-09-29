@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "ES6"
+    },
+    "files": [
+        "app01-functions-args.js",
+        "app02-arrays.js",
+        "app03-prototypes.js"
+    ]
+}
