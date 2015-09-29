@@ -4,7 +4,7 @@ function makeStudent(nr, name) {
 	return {
 		nr: nr,
 		name: name,
-		print: function (){
+		print: function printStudent(){
 			console.log(this.nr + ": " + this.name)
 		}
 	}
