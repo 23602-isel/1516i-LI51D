@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "ES6"
+    },
+    "files": [
+        "app01-object-literal.js",
+        "app02-functions-call.js",
+        "app03-functions-declaration.js"
+    ]
+}
