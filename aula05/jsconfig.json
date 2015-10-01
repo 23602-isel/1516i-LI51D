@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "ES6"
+    },
+    "files": [
+        "app01-inherit.js",
+        "app02-inherit-bad.js",
+        "app03-closures.js"
+    ]
+}
