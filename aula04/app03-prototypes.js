@@ -7,11 +7,7 @@ console.log(Object.getPrototypeOf(obj).toString())
 function Student(nr, name){
 	this.nr = nr
 	this.name = name
-	/*
-	this.print = function() {
-		console.log(this.nr + ": " + this.name)
-	}
-	*/
+	//  this.print = function() { console.log(this.nr + ": " + this.name) 	}
 }
 
 /* 
@@ -27,8 +23,10 @@ let s2 = new Student(725371, 'Rosa Maria')
 
 console.log(s1)
 console.log(s2)
-s1.print()
-console.log(s1.constructor.prototype.print.name)
+
+s1.print()     // lookup do método: 1) objecto 2) prototipo
+// <=>
+s1.constructor.prototype.print.call(s1) 
 
 console.log("s1.print == s2.print: " + (s1.print == s2.print))
 
