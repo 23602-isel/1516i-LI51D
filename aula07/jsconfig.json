@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "ES6"
+    },
+    "files": [
+        "app01-streams.js",
+        "app02-server-tcp.js",
+        "app03-client.js"
+    ]
+}
