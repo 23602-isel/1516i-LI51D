@@ -18,14 +18,14 @@ net.createServer(socket => {
 		socket.write(JSON.stringify({
 				filename: filename,
 				kind: 'listening',
-				timespan: Date.now()
+				timestamp: Date.now()
 			}) + '\n');
 		const watcher = fs.watch(
 			filename, 
 			event => socket.write(JSON.stringify({
 				filename: filename,
 				kind: 'changed',
-				timespan: Date.now()
+				timestamp: Date.now()
 			}) + '\n')
 		)
 		socket.on('close', () => {
