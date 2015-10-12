@@ -5,6 +5,9 @@
 const fs = require('fs')
 const net = require('net')
 
+
+
+
 if(process.argv.length <= 2) {
 	console.log("ERROR you must provide a filename!")
 	process.exit(0)
@@ -31,7 +34,7 @@ net.createServer(socket => {
 		socket.on('close', () => {
 			console.log("Subscriber disconnected...")
 			watcher.close()
-		})		
+		})
 	})
 	.listen(5432)
 
