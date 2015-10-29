@@ -1,0 +1,14 @@
+{
+  "name": "aula15",
+  "version": "1.0.0",
+  "description": "Aula 15 code",
+  "main": "httpclient.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http": "0.0.0"
+  }
+}
