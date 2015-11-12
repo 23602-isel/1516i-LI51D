@@ -9,5 +9,5 @@ Gr 8
 Gr 9 Lourenço Palma,     Miguel  Garrido
 Gr 10 Hugo Lourenco,     João Pereira,     Ricardo Cardoso
 Gr 11 Joana  Coelho,     José Miranda,     Rafael Nobre
-Gr 12 Ana Sequeira,      Diogo  Poeira
+Gr 12 Ana Sequeira,      Diogo  Poeira,    Daniel Silva
 Gr 13 Afonso Dos Santos, André Almeida
