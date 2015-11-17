@@ -1,0 +1,11 @@
+{
+  "name": "tasks-manager-webapi",
+  "version": "1.0.0",
+  "description": "Web Api for an application to manage tasks",
+  "main": "tasks-manager-webapi",
+  "scripts": {
+    "test": "nodeunit"
+  },
+  "author": "isel-pi",
+  "license": "ISC"
+}
